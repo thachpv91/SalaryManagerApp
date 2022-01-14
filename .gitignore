@@ -297,6 +297,7 @@ node_modules/
 # Visual Studio 6 auto-generated project file (contains which files were open etc.)
 *.vbp
 
+
 # Visual Studio 6 workspace and project file (working project files containing files to include in project)
 *.dsw
 *.dsp
@@ -396,3 +397,36 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
