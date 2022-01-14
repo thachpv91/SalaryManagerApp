@@ -1,0 +1,11 @@
+Numbers: 2
+
+StaffID: 2
+Date: 20/02/2015
+Reason: Lam mat phone N9505
+Money: 4000000
+
+StaffID: 3
+Date: 21/03/2015
+Reason: Nghi khong phep 3 ngay
+Money: 600000

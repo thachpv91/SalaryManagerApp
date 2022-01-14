@@ -1,0 +1,16 @@
+Numbers: 3
+
+Id: 1
+Name: Quan Ly Studio
+
+Id: 2
+Name: Nhan Su
+
+Id: 3
+Name: Producer
+
+Id: 4
+Name: Programer
+
+Id: 5
+Name: QA Tester

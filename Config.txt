@@ -1,0 +1,10 @@
+ACCOUNT         : ..\\Data\\AccountDB.dat
+
+STAFF_INFOR     : ..\\Data\\StaffInforDB.dat
+DIVISION        : ..\\Data\\DivisionDB.dat
+DISCIPLINE      : ..\\Data\\DisciplineDB.dat
+BONUS           : ..\\Data\\BonusDB.dat
+ADVANCE_PAYMENT : ..\\Data\\AdvancePaymentDB.dat
+TIMEKEEPING     : ..\\Data\\TimekeepingDB.dat
+POSITION        : ..\\Data\\PositionDB.dat
+SALARY          : ..\\Data\\SalaryDB.dat

@@ -1,0 +1,16 @@
+Number: 3
+
+StaffId: 1
+Date: 10/01/2015
+Reason: "Good job!"
+Money: 100000
+
+StaffId: 2
+Date: 2/02/1995
+Reason: "Good job!"
+Money: 100000
+
+StaffId: 3
+Date: 8/03/2015
+Reason: "Give flowers to female boss"
+Money: 200000

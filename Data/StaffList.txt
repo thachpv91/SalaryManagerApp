@@ -1,0 +1,29 @@
+NumberStaff: 3
+
+Id : 01
+Name: Phan Van Thach
+Sex: 1
+BirthDay: 10/08/1991
+Married: 0
+Address: K97/53 Nguyen Luong Bang
+PositionId: 1
+DivisionId: 2
+
+Id : 02
+Name: Nguyen Phuoc Long
+Sex: 1
+BirthDay: 11/05/1992
+Married: 0
+Address: K97/53 Nguyen Luong Bang
+PositionId: 3
+DivisionId: 2
+
+Id : 03
+Name: Phan Van Sanh
+Sex: 1
+BirthDay: 25/04/1996
+Married: 0
+Address: K97/53 Nguyen Luong Bang
+PositionId: 4
+DivisionId: 2
+

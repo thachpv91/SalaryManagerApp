@@ -1,0 +1,137 @@
+# Project: SalaryManager
+# Makefile created by Dev-C++ 5.3.0.4
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = Main.o staffinfor.o mydate.o application.o applicationmanager.o salarymanager.o mainmenustate.o staffmgrstate.o salarymgrstate.o searchmenustate.o loginstate.o listofstaffstate.o search_edit_remove_state.o account.o bonus.o database.o addaccount.o myutil.o accountdb.o manageraccountstate.o bonusdb.o staffinfordb.o position.o division.o discipline.o advancepayment.o timekeeping.o positiondb.o disciplinedb.o divisiondb.o advancepaymentdb.o timekeepingdb.o salary.o salarydb.o addnewstaffstate.o dispaysalarystate.o search_edit_account_state.o $(RES)
+LINKOBJ  = Main.o staffinfor.o mydate.o application.o applicationmanager.o salarymanager.o mainmenustate.o staffmgrstate.o salarymgrstate.o searchmenustate.o loginstate.o listofstaffstate.o search_edit_remove_state.o account.o bonus.o database.o addaccount.o myutil.o accountdb.o manageraccountstate.o bonusdb.o staffinfordb.o position.o division.o discipline.o advancepayment.o timekeeping.o positiondb.o disciplinedb.o divisiondb.o advancepaymentdb.o timekeepingdb.o salary.o salarydb.o addnewstaffstate.o dispaysalarystate.o search_edit_account_state.o $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+BIN      = SalaryManager.exe
+CXXFLAGS = $(CXXINCS)  -g3
+CFLAGS   = $(INCS)  -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Main.o: Main.cpp
+	$(CPP) -c Main.cpp -o Main.o $(CXXFLAGS)
+
+staffinfor.o: staffinfor.cpp
+	$(CPP) -c staffinfor.cpp -o staffinfor.o $(CXXFLAGS)
+
+mydate.o: mydate.cpp
+	$(CPP) -c mydate.cpp -o mydate.o $(CXXFLAGS)
+
+application.o: application.cpp
+	$(CPP) -c application.cpp -o application.o $(CXXFLAGS)
+
+applicationmanager.o: applicationmanager.cpp
+	$(CPP) -c applicationmanager.cpp -o applicationmanager.o $(CXXFLAGS)
+
+salarymanager.o: salarymanager.cpp
+	$(CPP) -c salarymanager.cpp -o salarymanager.o $(CXXFLAGS)
+
+mainmenustate.o: mainmenustate.cpp
+	$(CPP) -c mainmenustate.cpp -o mainmenustate.o $(CXXFLAGS)
+
+staffmgrstate.o: staffmgrstate.cpp
+	$(CPP) -c staffmgrstate.cpp -o staffmgrstate.o $(CXXFLAGS)
+
+salarymgrstate.o: salarymgrstate.cpp
+	$(CPP) -c salarymgrstate.cpp -o salarymgrstate.o $(CXXFLAGS)
+
+searchmenustate.o: searchmenustate.cpp
+	$(CPP) -c searchmenustate.cpp -o searchmenustate.o $(CXXFLAGS)
+
+loginstate.o: loginstate.cpp
+	$(CPP) -c loginstate.cpp -o loginstate.o $(CXXFLAGS)
+
+listofstaffstate.o: listofstaffstate.cpp
+	$(CPP) -c listofstaffstate.cpp -o listofstaffstate.o $(CXXFLAGS)
+
+search_edit_remove_state.o: search_edit_remove_state.cpp
+	$(CPP) -c search_edit_remove_state.cpp -o search_edit_remove_state.o $(CXXFLAGS)
+
+account.o: account.cpp
+	$(CPP) -c account.cpp -o account.o $(CXXFLAGS)
+
+bonus.o: bonus.cpp
+	$(CPP) -c bonus.cpp -o bonus.o $(CXXFLAGS)
+
+database.o: database.cpp
+	$(CPP) -c database.cpp -o database.o $(CXXFLAGS)
+
+addaccount.o: addaccount.cpp
+	$(CPP) -c addaccount.cpp -o addaccount.o $(CXXFLAGS)
+
+myutil.o: myutil.cpp
+	$(CPP) -c myutil.cpp -o myutil.o $(CXXFLAGS)
+
+accountdb.o: accountdb.cpp
+	$(CPP) -c accountdb.cpp -o accountdb.o $(CXXFLAGS)
+
+manageraccountstate.o: manageraccountstate.cpp
+	$(CPP) -c manageraccountstate.cpp -o manageraccountstate.o $(CXXFLAGS)
+
+bonusdb.o: bonusdb.cpp
+	$(CPP) -c bonusdb.cpp -o bonusdb.o $(CXXFLAGS)
+
+staffinfordb.o: staffinfordb.cpp
+	$(CPP) -c staffinfordb.cpp -o staffinfordb.o $(CXXFLAGS)
+
+position.o: position.cpp
+	$(CPP) -c position.cpp -o position.o $(CXXFLAGS)
+
+division.o: division.cpp
+	$(CPP) -c division.cpp -o division.o $(CXXFLAGS)
+
+discipline.o: discipline.cpp
+	$(CPP) -c discipline.cpp -o discipline.o $(CXXFLAGS)
+
+advancepayment.o: advancepayment.cpp
+	$(CPP) -c advancepayment.cpp -o advancepayment.o $(CXXFLAGS)
+
+timekeeping.o: timekeeping.cpp
+	$(CPP) -c timekeeping.cpp -o timekeeping.o $(CXXFLAGS)
+
+positiondb.o: positiondb.cpp
+	$(CPP) -c positiondb.cpp -o positiondb.o $(CXXFLAGS)
+
+disciplinedb.o: disciplinedb.cpp
+	$(CPP) -c disciplinedb.cpp -o disciplinedb.o $(CXXFLAGS)
+
+divisiondb.o: divisiondb.cpp
+	$(CPP) -c divisiondb.cpp -o divisiondb.o $(CXXFLAGS)
+
+advancepaymentdb.o: advancepaymentdb.cpp
+	$(CPP) -c advancepaymentdb.cpp -o advancepaymentdb.o $(CXXFLAGS)
+
+timekeepingdb.o: timekeepingdb.cpp
+	$(CPP) -c timekeepingdb.cpp -o timekeepingdb.o $(CXXFLAGS)
+
+salary.o: salary.cpp
+	$(CPP) -c salary.cpp -o salary.o $(CXXFLAGS)
+
+salarydb.o: salarydb.cpp
+	$(CPP) -c salarydb.cpp -o salarydb.o $(CXXFLAGS)
+
+addnewstaffstate.o: addnewstaffstate.cpp
+	$(CPP) -c addnewstaffstate.cpp -o addnewstaffstate.o $(CXXFLAGS)
+
+dispaysalarystate.o: dispaysalarystate.cpp
+	$(CPP) -c dispaysalarystate.cpp -o dispaysalarystate.o $(CXXFLAGS)
+
+search_edit_account_state.o: search_edit_account_state.cpp
+	$(CPP) -c search_edit_account_state.cpp -o search_edit_account_state.o $(CXXFLAGS)
